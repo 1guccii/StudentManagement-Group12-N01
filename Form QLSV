@@ -1,7 +1,7 @@
 // ## Bài tập lớn: Quản lý Sinh viên
 
 // 1. **Khởi tạo Dữ liệu:**
-//    - Định nghĩa một cấu trúc để lưu trữ thông tin của sinh viên (Họ tên, Mã số sinh viên, Điểm toán, Điểm văn, Điểm anh văn, ...).
+//    - Định nghĩa một cấu trúc để lưu trữ thông tin của sinh viên (Họ tên, Mã số sinh viên, Điểm các môn học, ...).
 //    - Sử dụng mảng để lưu danh sách các sinh viên.
 
 // 2. **Thực hiện Chức năng Thêm Sinh viên:**
