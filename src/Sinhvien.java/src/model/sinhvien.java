@@ -60,7 +60,5 @@ public class sinhvien {
         this.diemanh = diemanh ;
     }
 
-    public static void main(String[] args) {
-        
-    }
+   
 }
