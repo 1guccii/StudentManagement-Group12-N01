@@ -1,3 +1,5 @@
+package model;
+
 public class sinhvien {
     private String Hoten ;
     private String MaSV ;

@@ -1,3 +1,5 @@
+package model;
+
 public class lophoc {
     public String tenlop;
     public String malop;
