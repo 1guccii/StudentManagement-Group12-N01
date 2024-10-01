@@ -43,7 +43,7 @@ Xóa sinh viên khỏi lớp học.
 #### Xóa sinh viên 
 ![image](https://github.com/user-attachments/assets/19908e05-a273-4e79-a5da-0d20fc35cff2)
 
-#### Giao diện đầu tiên của dự án 
+## Giao diện đầu tiên của dự án 
 
 ![image](https://github.com/user-attachments/assets/e9a70c02-0954-44ce-bf60-ff1886eaf3a3)
 
