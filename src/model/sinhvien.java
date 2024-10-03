@@ -1,5 +1,8 @@
 package model;
 
+import java.io.FileWriter;
+import java.io.IOException;
+
 import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.property.SimpleDoubleProperty;
 import javafx.beans.property.SimpleStringProperty;
@@ -196,7 +199,17 @@ public class sinhvien {
         return true;
     }
 
-    
+    public void saveToFile() {
+        try {
+            FileWriter writer = new FileWriter("Data/Login.txt", true);
+            writer.write(MaSV.get() + "," + Hoten.get() + "," + ngaysinh.get() + "," + quequan.get() + "," + 
+                         gioitinh.get() + "," + diemtoan.get() + "," + diemvan.get() + "," + diemanh.get() + "\n");
+            writer.close();
+            System.out.println("Lưu thành công.");
+        } catch (IOException e) {
+            System.out.println("Lỗi ! " + e.getMessage());
+        }
+    }
 
 
 

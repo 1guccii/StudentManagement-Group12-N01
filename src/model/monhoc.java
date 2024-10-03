@@ -1,42 +1,44 @@
 package model;
 
-import javafx.beans.property.SimpleDoubleProperty;
-import javafx.beans.property.SimpleStringProperty;
+//import javafx.beans.property.SimpleDoubleProperty;
+//import javafx.beans.property.SimpleStringProperty;
 
 public class monhoc {
-    private SimpleStringProperty mamonhoc;
-    private SimpleStringProperty tenmonhoc;
-    private SimpleDoubleProperty sotinchi;
-    
-    public monhoc(SimpleStringProperty mamonhoc, SimpleStringProperty tenmonhoc, SimpleDoubleProperty sotinchi) {
+    private String mamonhoc;
+    private String tenmonhoc;
+    private double  sotinchi;
+
+    public monhoc(String mamonhoc, double sotinchi, String tenmonhoc) {
         this.mamonhoc = mamonhoc;
-        this.tenmonhoc = tenmonhoc;
         this.sotinchi = sotinchi;
+        this.tenmonhoc = tenmonhoc;
     }
 
-    public SimpleStringProperty getMamonhoc() {
+    public String getMamonhoc() {
         return mamonhoc;
     }
 
-    public void setMamonhoc(SimpleStringProperty mamonhoc) {
+    public void setMamonhoc(String mamonhoc) {
         this.mamonhoc = mamonhoc;
     }
 
-    public SimpleStringProperty getTenmonhoc() {
+    public String getTenmonhoc() {
         return tenmonhoc;
     }
 
-    public void setTenmonhoc(SimpleStringProperty tenmonhoc) {
+    public void setTenmonhoc(String tenmonhoc) {
         this.tenmonhoc = tenmonhoc;
     }
 
-    public SimpleDoubleProperty getSotinchi() {
+    public double getSotinchi() {
         return sotinchi;
     }
 
-    public void setSotinchi(SimpleDoubleProperty sotinchi) {
+    public void setSotinchi(double sotinchi) {
         this.sotinchi = sotinchi;
     }
+    
+    
 
     
     
